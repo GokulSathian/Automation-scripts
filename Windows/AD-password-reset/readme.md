@@ -52,6 +52,15 @@ The script creates a dedicated folder for transparency and auditing:
 # Required Parameters:
 # -InputFile : Path to text file with IDs
 # -password  : The temporary password to assign
-# -LogDir    : (Optional) Path for results
+# -LogDir    : (Optional) Path for results.
 
 ---
+
+## ⚠️ Important Security & Usage Note
+
+* **Policy Awareness:** This script sets `ChangePasswordAtLogon` to `$false`. If your company policy requires a change at next login, you may need to adjust the script logic.
+* **Attribute Mapping:** Ensure your organization actually uses the `mobile` field for Employee IDs before running in production.
+* **Logging:** Be aware that the log directory is **deleted and recreated** every time the script runs; back up previous logs if needed.
+* **Plain Text Warning:** Be cautious when passing passwords as plain text in the command line, as they may be visible in PowerShell history (`Get-History`).
+
+
