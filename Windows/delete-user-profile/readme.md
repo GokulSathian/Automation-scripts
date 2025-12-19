@@ -1,4 +1,4 @@
-# 🧹 Inactive User Profile Cleanup Script (PowerShell)
+# 🧹 Bulk User Profile Cleanup Script (PowerShell)
 
 [![PowerShell](https://img.shields.io/badge/Language-PowerShell-5391FF?style=flat-square&logo=powershell)](https://github.com/microsoft/PowerShell)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-green.svg?style=flat-square)](https://github.com/yourusername/yourrepo)
