@@ -49,12 +49,11 @@ The script creates a dedicated folder for transparency and auditing:
 ## 💾 The Script Structure
 
 ```powershell
-# Required Parameters:
+**Rquired Parameters:**
 # -InputFile : Path to text file with IDs
 # -password  : The temporary password to assign
 # -LogDir    : (Optional) Path for results.
-
----
+```
 
 ## ⚠️ Important Security & Usage Note
 
